@@ -1,0 +1,10 @@
+startup_message off
+
+split -v
+screen -t bash bash
+split
+focus
+screen -t top top
+focus
+screen -t bash bash
+focus
