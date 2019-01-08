@@ -120,7 +120,9 @@ export EDITOR=vim
 export VISUAL=vim
 export PATH=$PATH:$HOME/.bin
 
+# run: update-mime-database /usr/share/mime
 alias open=xdg-open
+
 alias givm='gvim'
 alias cta='cat'
 alias gerp='grep'
