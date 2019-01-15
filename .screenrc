@@ -27,3 +27,6 @@ bindkey "^[[1;5B" focus down
 
 bindkey "^[OR" prev
 bindkey "^[OS" next
+
+bindkey "^[[20~" mousetrack on
+bindkey "^[[21~" mousetrack off
