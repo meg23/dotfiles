@@ -1,3 +1,5 @@
+set shortmess=I
+
 filetype off
 syntax on
 
