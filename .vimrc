@@ -14,7 +14,11 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-eunuch'
 Plugin 'tpope/vim-surround'
-Plugin 'w0rp/ale'
+Plugin 'tpope/vim-fugitive'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'kuoe0/vim-scavenger'
+Plugin 'ekalinin/dockerfile.vim'
+Plugin 'kevinhui/vim-docker-tools'
 call vundle#end()
 filetype plugin indent on
 

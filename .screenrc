@@ -6,10 +6,11 @@ hardstatus alwayslastline
 hardstatus string '%{= kG}[%{G}%H%? %1`%?%{g}][%= %{= kw}%-w%{+b yk} %n*%t%?(%u)%? %{-}%+w %=%{g}][%{B}%m/%d %{W}%C%A%{g}]'
 
 attrcolor b ".I"
-termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+#termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
 defbce on
 
 mousetrack on
+termcapinfo xterm* ti@:te@
 
 split -v
 screen -t bash bash
