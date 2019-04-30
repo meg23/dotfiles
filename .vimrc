@@ -20,7 +20,6 @@ Plugin 'kuoe0/vim-scavenger'
 Plugin 'ekalinin/dockerfile.vim'
 Plugin 'kevinhui/vim-docker-tools'
 call vundle#end()
-filetype plugin indent on
 
 filetype off
 syntax on

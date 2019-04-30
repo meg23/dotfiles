@@ -32,5 +32,3 @@ bindkey "^[OS" next
 
 bindkey "^[[20~" mousetrack on
 bindkey "^[[21~" mousetrack off
-
-bindkey -m ' ' eval 'stuff \040' 'writebuf' 'exec sh -c "/usr/bin/pbcopy < /tmp/screen-exchange"'
