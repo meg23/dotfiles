@@ -29,6 +29,7 @@ case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
 
+
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
@@ -138,10 +139,12 @@ alias meminfo='free -h -m -l -t'
 alias cpuinfo='lscpu'
 alias apt-get='sudo apt-get'
 
-
 ## get top process eating memory
 alias psmem='ps auxf | sort -nr -k 4'
  
 ## get top process eating cpu ##
 alias pscpu='ps auxf | sort -nr -k 3'
+
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
  
